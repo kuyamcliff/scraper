@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 140
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true

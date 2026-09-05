@@ -1,0 +1,44 @@
+{
+  "streaming": {
+    "profile_name": "streaming",
+    "min_resolution": "1080p",
+    "require_known_resolution": true,
+    "preferred_sources": ["WEB-DL", "Remux", "BluRay", "WEBRip", "HDTV"],
+    "blocked_codecs": [],
+    "prefer_dual_audio": false,
+    "preferred_audio_languages": ["Japanese"],
+    "preferred_subtitle_languages": ["English"]
+  },
+  "archival": {
+    "profile_name": "archival",
+    "min_resolution": "1080p",
+    "require_known_resolution": true,
+    "preferred_sources": ["Remux", "BluRay", "BDMV"],
+    "blocked_codecs": ["AV1"],
+    "reject_no_group": true,
+    "prefer_10bit": true,
+    "preferred_audio_languages": ["Japanese"],
+    "preferred_subtitle_languages": ["English"]
+  },
+  "mobile": {
+    "profile_name": "mobile",
+    "min_resolution": "720p",
+    "max_resolution": "1080p",
+    "require_known_resolution": true,
+    "preferred_sources": ["WEB-DL", "WEBRip", "BluRay"],
+    "preferred_codecs": ["H.264", "H.265"],
+    "prefer_10bit": false,
+    "preferred_audio_languages": ["Japanese"],
+    "preferred_subtitle_languages": ["English"]
+  },
+  "maximum": {
+    "profile_name": "maximum",
+    "min_resolution": "1080p",
+    "require_known_resolution": true,
+    "preferred_sources": ["Remux", "BluRay", "BDMV", "WEB-DL"],
+    "blocked_codecs": ["AV1"],
+    "prefer_10bit": true,
+    "preferred_audio_languages": ["Japanese"],
+    "preferred_subtitle_languages": ["English"]
+  }
+}
