@@ -1,1 +1,4 @@
 nyaa_scraper.egg-info/
+__pycache__/
+*.pyc
+*.pyo
