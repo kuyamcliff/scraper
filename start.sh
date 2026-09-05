@@ -35,6 +35,7 @@ export QBIT_URL="http://localhost:$QBIT_PORT"
 export QBIT_USER="admin"
 export QBIT_PASS="$QBIT_PASS"
 export SAVE_PATH="$SAVE_PATH"
+export RD_API_KEY="${RD_API_KEY:-}"
 
 python tgbot.py &
 BOT_PID=$!
