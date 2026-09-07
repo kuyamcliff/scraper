@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.videodl.app-mergeDebugResources-3:/layout/activity_format_picker.xml",
+        "source": "com.videodl.app-main-6:/layout/activity_format_picker.xml"
+    },
+    {
+        "merged": "com.videodl.app-mergeDebugResources-3:/layout/item_download_task.xml",
+        "source": "com.videodl.app-main-6:/layout/item_download_task.xml"
+    },
+    {
+        "merged": "com.videodl.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "com.videodl.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.videodl.app-mergeDebugResources-3:/layout/activity_downloads.xml",
+        "source": "com.videodl.app-main-6:/layout/activity_downloads.xml"
+    },
+    {
+        "merged": "com.videodl.app-mergeDebugResources-3:/layout/item_format.xml",
+        "source": "com.videodl.app-main-6:/layout/item_format.xml"
+    }
+]

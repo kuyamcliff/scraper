@@ -66,12 +66,9 @@ dependencies {
     implementation 'androidx.work:work-runtime-ktx:2.9.0'
     implementation 'androidx.preference:preference-ktx:1.2.1'
 
-    // yt-dlp Android wrapper (bundles Python + yt-dlp)
-    implementation 'com.github.yausername.youtubedl-android:library:0.17.+'
-    implementation 'com.github.yausername.youtubedl-android:ffmpeg:0.17.+'
-
-    // FFmpeg Kit for post-processing (full build includes all codecs)
-    implementation 'com.arthenica:ffmpeg-kit-full:6.0-2'
+    // yt-dlp Android wrapper — bundles Python 3 + yt-dlp + ffmpeg binary (ARM64/ARM/x86_64)
+    implementation 'com.github.yausername.youtubedl-android:library:0.14.0'
+    implementation 'com.github.yausername.youtubedl-android:ffmpeg:0.14.0'
 
     // Gson for JSON parsing
     implementation 'com.google.code.gson:gson:2.10.1'
