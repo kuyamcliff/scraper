@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material You primary palette — deep indigo/blue -->
+    <color name="md_primary">#1565C0</color>
+    <color name="md_on_primary">#FFFFFF</color>
+    <color name="md_primary_container">#D3E4FF</color>
+    <color name="md_on_primary_container">#001B3E</color>
+    <color name="md_secondary">#00695C</color>
+    <color name="md_on_secondary">#FFFFFF</color>
+    <color name="md_surface">#FAFCFF</color>
+    <color name="md_on_surface">#181C22</color>
+    <color name="md_surface_variant">#DFE2EB</color>
+    <color name="md_on_surface_variant">#43474F</color>
+</resources>
